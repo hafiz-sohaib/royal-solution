@@ -1,0 +1,149 @@
+.card-body{
+    padding: 0;
+}
+
+/* ========== Hero Card ========== */
+.royal-card.heroCard{
+    border-radius: 12px;
+    background: #0B0315;
+    padding: 20px;
+    border: 1px solid #000000;
+    transition: 0.5s all;
+    height: 100%;
+    text-align: left;
+}
+@media (min-width: 768px) {
+    .royal-card.heroCard {
+        padding: 25px;
+    }
+}
+@media (min-width: 992px) {
+    .royal-card.heroCard{
+        padding: 30px;
+    }
+}
+.royal-card.heroCard:hover{
+    box-shadow: 0 0 50px -12px #AB69FD;
+}
+.royal-card.heroCard img{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 25px;
+}
+.royal-card.heroCard .card-title{
+    color: #AB69FD;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.royal-card.heroCard .card-text{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+
+/* ========== Services Card ========== */
+.royal-card.services{
+    border-radius: 12px;
+    background: #0B0315;
+    padding: 20px;
+    border: 1px solid #000000;
+    transition: 0.5s all;
+    height: 100%;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .royal-card.services{
+        padding: 25px;
+    }
+}
+@media (min-width: 992px) {
+    .royal-card.services{
+        padding: 30px;
+    }
+}
+.royal-card.services:hover{
+    box-shadow: 0 0 50px -12px #AB69FD;
+}
+.royal-card.services img{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 25px;
+}
+.royal-card.services .card-title{
+    color: #AB69FD;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.royal-card.services .card-text{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+/* ========== Why Us Card ========== */
+.royal-card.why-us{
+    border-radius: 12px;
+    background: #0B0315;
+    padding: 30px;
+    border: 1px solid #000000;
+    transition: 0.5s all;
+    height: 100%;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .royal-card.why-us{
+        padding: 35px;
+    }
+}
+@media (min-width: 992px) {
+    .royal-card.why-us{
+        padding: 40px;
+    }
+}
+.royal-card.why-us:hover{
+    box-shadow: 0 0 50px -12px #AB69FD;
+}
+.royal-card.why-us img{
+    width: 92px;
+    height: 92px;
+    margin-bottom: 25px;
+}
+.royal-card.why-us .card-title{
+    color: #AB69FD;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.royal-card.why-us .card-text{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+
+/* ========== Direction Card ========== */
+.royal-card.direction {
+    padding: 0;
+    height: 100%;
+    text-align: left;
+    background: transparent;
+}
+.royal-card.direction img{
+    width: 72px;
+    height: 72px;
+    margin-bottom: 15px;
+}
+.royal-card.direction .card-title{
+    color: #AB69FD;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.royal-card.direction .card-text{
+    color: #ffffff;
+    font-size: 14px;
+}

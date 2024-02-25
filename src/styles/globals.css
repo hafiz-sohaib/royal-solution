@@ -1,0 +1,402 @@
+@font-face {
+    font-family: "Casino";
+    src: url("/font/Casino.ttf");
+}
+
+body{
+    color: #ffffffcc;
+    font-size: 16px;
+    background: #140820;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 40px 0;
+}
+@media (min-width: 768px) {
+    section{
+        padding: 60px 0;
+    }
+}
+@media (min-width: 992px) {
+    section{
+        padding: 80px 0;
+    }
+}
+
+.container{
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media (min-width: 768px) {
+    .container{
+        padding: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+@media (min-width: 1200px) {
+    .btn{
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+}
+
+.btn-outline-primary:hover,
+.btn-primary{
+    background: #AB69FD;
+    color: #ffffff;
+    border-color: #AB69FD;
+}
+.btn-primary:hover,
+.btn-outline-primary{
+    background: transparent;
+    color: #AB69FD;
+    border-color: #AB69FD;
+}
+
+.btn-outline-secondary:hover,
+.btn-secondary{
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+.btn-secondary:hover,
+.btn-outline-secondary{
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+h1.main-heading{
+    color: #AB69FD;
+    font-size: 50px;
+    font-family: "Casino";
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    h1.main-heading{
+        font-size: 65px;
+    }
+}
+@media (min-width: 992px) {
+    h1.section-heading{
+        font-size: 80px;
+    }
+}
+
+
+h3.subheading{
+    color: #E9E9E9;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    h3.subheading{
+        font-size: 23px;
+    }
+}
+@media (min-width: 992px) {
+    h3.subheading{
+        font-size: 25px;
+    }
+}
+
+
+h1.section-heading{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Casino";
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+h1.section-heading span{
+    color: #AB69FD;
+}
+@media (min-width: 768px) {
+    h1.section-heading{
+        font-size: 36px;
+    }
+}
+@media (min-width: 992px) {
+    h1.section-heading{
+        font-size: 42px;
+    }
+}
+
+
+/* ==================== Hero Section ==================== */
+.hero{
+    background: linear-gradient(#00000000, #20081cc6 20%), url("/hero/bg.webp");
+    background-size: cover;
+    background-position: center;
+}
+@media (min-width: 992px) {
+    .hero{
+        background: linear-gradient(to right, #20081C 40%, #00000000), url("/hero/bg.webp");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.hero .hero-caption .subheading{
+    margin-bottom: 20px;
+}
+.hero .hero-caption p{
+    margin-bottom: 30px;
+}
+
+.hero .hero-card{
+    padding: 30px;
+    background: linear-gradient(#0f051a6f, #0f051a6f);
+    color: #ffffffcc;
+}
+@media (min-width: 992px) {
+    .hero .hero-card{
+        padding: 40px;
+        background: linear-gradient(to left, #0f051a00, #0F051A);
+    }
+}
+
+.hero .hero-card .section-heading + .card-text{
+    width: 100%;
+    margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+    .hero .hero-card .section-heading + .card-text{
+        width: 70%;
+    }
+}
+@media (min-width: 992px) {
+    .hero .hero-card .section-heading + .card-text{
+        width: 50%;
+    }
+}
+
+
+
+/* ==================== RSIN Section ==================== */
+.our-partners{
+    padding: 50px 0;
+    background: #AB69FD;
+}
+.our-partners img{
+    width: 100%;
+}
+
+
+
+/* ==================== RSIN Section ==================== */
+.why-us{
+    background: #140820;
+}
+
+
+
+/* ==================== RSIN Section ==================== */
+.rsin{
+    padding: 50px 0;
+    background: #AB69FD;
+}
+.rsin .counter h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.rsin .counter strong{
+    font-size: 14px;
+    font-weight: 500;
+}
+@media (min-width: 768px) {
+    .rsin .counter h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .rsin .counter strong{
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 992px) {
+    .rsin .counter h1{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .rsin .counter strong{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
+
+/* ==================== Direction Section ==================== */
+.direction-start{
+    background: linear-gradient(#14082091 0%, #140820 100%), url("/direction/bg.webp");
+    background-size: cover;
+    background-position: center;
+}
+@media (min-width: 992px) {
+    .direction-start{
+        background: linear-gradient(to right, #00000000 0%, #140820 70%), linear-gradient(to right, #00000000 0%, #140820 60%), linear-gradient(to bottom, #00000000 60%, #140820 100%), url("/direction/bg.webp");
+        background-size: cover;
+        background-position: center;
+    }
+}
+.direction-start .main-heading {
+    margin-bottom: 0;
+}
+.direction-start .subheading{
+    margin-bottom: 20px;
+}
+.direction-start .subheading + p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+/* ==================== Services Section ==================== */
+.services{
+    background: #140820;
+}
+.services .section-heading{
+    margin-bottom: 10px;
+}
+.services .section-heading + p{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+
+/* ==================== Interested Section ==================== */
+.interested{
+    background: #140820;
+}
+.interested .interested-card{
+    background: #AB69FD;
+    padding: 50px;
+    border-radius: 12px;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .interested .interested-card{
+        padding: 70px;
+    }
+}
+
+.interested .interested-card::before,
+.interested .interested-card::after{
+    content: "";
+    position: absolute;
+    background: url("/interested/rings.svg");
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 180px;
+}
+@media (min-width: 768px) {
+    .interested .interested-card::before,
+    .interested .interested-card::after{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.interested .interested-card::before{
+    top: 0;
+    left: 0;
+}
+.interested .interested-card::after{
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+.interested .interested-card p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ==================== Contact Section ==================== */
+.contact{
+    background: radial-gradient(rgba(0, 0, 0, 0) 16%, #140820 73%), url("/contact/bg.webp");
+    background-size: cover;
+    background-position: center;
+}
+.contact h1.section-heading{
+    margin-bottom: 30px;
+}
+.contact form{
+    background: rgba(35, 12, 64, 0.54);
+    padding: 35px 25px;
+    border-radius: 9px;
+    backdrop-filter: blur(20px);
+}
+@media (min-width: 768px) {
+    .contact form{
+        background: rgba(35, 12, 64, 0.54);
+        padding: 50px 40px;
+        border-radius: 9px;
+        backdrop-filter: blur(20px);
+    }
+}
+.contact input.form-control,
+.contact textarea.form-control{
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.42);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 14px 20px;
+    resize: none;
+    box-shadow: 0 0 20px -7px #AB69FD;
+}
+.contact input.form-control::placeholder,
+.contact textarea.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+@media (min-width: 992px) {
+    .contact input.form-control,
+    .contact textarea.form-control{
+        padding: 17px 20px;
+    }
+}
+
+
+/* ========================= Other Pages Hero Sections ========================= */
+.about-hero,
+.services-hero,
+.service-hero,
+.whyus-hero{
+    background: linear-gradient(to left, #140820af 0, #140820 60%), url("/hero/bg.webp");
+    background-size: cover;
+    background-position: center;
+}
